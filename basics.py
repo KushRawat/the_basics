@@ -1,1 +1,9 @@
-students_data = {"mary":12,"jane":14}
+def mean(myList):
+    the_mean = sum(myList) / len(myList)
+    return the_mean
+
+print(mean([3,4,5]))
+print(type(mean))
+#print(type(myList))
+print(type(len))
+print(type(sum))
