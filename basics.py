@@ -1,1 +1,1 @@
-monday_temperatures = ["hello",12,234]
+students_data = {"mary":12,"jane":14}
