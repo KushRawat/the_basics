@@ -1,8 +1,5 @@
-def condition(x):
-    if x > 7:
-        return "WArm"
-    else: 
-        return "cold"
+user_input = input("Enter your name:")
+message = "Hello %s" %user_input
+message = f"Hello {user_input}"
+print(message)
 
-user_input = int(input("Enter temperature:"))
-print(condition(user_input))
