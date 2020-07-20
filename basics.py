@@ -1,7 +1,4 @@
-monday_temperatures = [9.1, 8.8, 7.6]
+monday_temperatures = {"my" : 12, "hi" : 23, "die" : 45}
+for grades in monday_temperatures.items(): #.keys(),.values()
+    print(grades)
 
-def cels_to_kelvin(cels):
-    return cels + 273.15
-
-for temperature in monday_temperatures:
-    print(cels_to_kelvin(temperature))
