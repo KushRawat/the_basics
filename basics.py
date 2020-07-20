@@ -1,9 +1,7 @@
-name = input("Enter your name:")
-surname = input("Enter your surname:")
-when = "today"
+monday_temperatures = [9.1, 8.8, 7.6]
 
-#message = "Hello %s %s whats up %s" %(name, surname, when)
-#message = f"Hello {name} {surname}, whats up {when}"
-message = "Hello {} {}, whats up {}".format(name, surname, name)
-print(message)
+for temperature in monday_temperatures:
+    print(round(temperature))
 
+for letters in ("hello"):
+    print(letters.title())
