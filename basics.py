@@ -1,7 +1,7 @@
 monday_temperatures = [9.1, 8.8, 7.6]
 
-for temperature in monday_temperatures:
-    print(round(temperature))
+def cels_to_kelvin(cels):
+    return cels + 273.15
 
-for letters in ("hello"):
-    print(letters.title())
+for temperature in monday_temperatures:
+    print(cels_to_kelvin(temperature))
