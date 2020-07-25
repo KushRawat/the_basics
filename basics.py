@@ -1,4 +1,4 @@
-monday_temperatures = {"my" : 12, "hi" : 23, "die" : 45}
-for a,b in monday_temperatures.values(): #.keys(),.values()
-    print ("{} has a number {}".format(a,b))
-    #print(a,b)
+a = 4
+while a > 0:
+    print(1)
+    print(2) # ctrl C to interrept terminal
