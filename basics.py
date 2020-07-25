@@ -1,3 +1,7 @@
-userName = ''
-while userName != 'kush':
-    userName = input("Enter usernamae: ")
+while True:
+    username = input("Enter username: ")
+    if username == "Kush":
+        break
+    else:
+        continue
+
