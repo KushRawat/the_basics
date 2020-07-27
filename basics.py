@@ -1,17 +1,5 @@
-def sentenceMaker(phrase):
-    interrogatives = ("how", "when", "why" )
-    capitalized = phrase.capitalize()
-    if phrase.startswith(interrogatives):
-        return f"{capitalized}?"
-    else:
-        return f"{capitalized}."
+temps = [221, 234, 53, 6345]
 
-result = []
-while True:
-    user_input = input("Say something: ")
-    if user_input == "/end":
-        break
-    else:
-        result.append(sentenceMaker(user_input))
+new_temps = [x/10 for x in temps]
 
-print(" ".join(result))
+print(new_temps)
