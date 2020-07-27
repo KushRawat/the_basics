@@ -1,5 +1,5 @@
 temps = [221, 234, 53, 6345]
 
-new_temps = [x/10 for x in temps]
+new_temp = [x / 10 for x in temps if x != 53]
 
-print(new_temps)
+print(new_temp)
