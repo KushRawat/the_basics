@@ -1,10 +1,8 @@
-def area(a, b= 7): # defualt parameter
-    return a * b
+def mean(*args): # args is used as a parameter with the power of processing as many arguments as we want, and returns type of tuple
+    print (args)
+    print (type(args))
+    print(sum(args))
 
-print(area(a = 4)) # keyword arguments , no need to assign b 
-print(area(5)) # non KEYWORD ARGUMENTS , no need to assign a or b 
-print(area(a = 4, b = 10)) # b can be assigned different value
-print(area(5, 7)) # non KEYWORD ARGUMENTS
-
-def area(a = 5, b): # a defualt parameter cannot be before a non-default parameter
-    return a * b
+#print(mean(1, 2, 3, 4, "a"))
+print(mean(1, 2, 3, 4))
+print(mean(1, 2, x = 3, 4)) # keyword argumetn will not work here
