@@ -1,5 +1,8 @@
-temps = [221, 234, 53, 6345]
+def area(a, b):
+    return a * b
 
-new_temp = [x if x != 53 else 0 for x in temps]
+print(area(a = 4, b = 3)) # keyword arguments
+print(area(b = 4, a = 7)) # KEYWORD ARGUMENTS position doesnt matter 
 
-print(new_temp)
+print(area(a, b)) # non-keyword arguments, positional argumentssince the way these arguments behave for a function is based on position
+ 
