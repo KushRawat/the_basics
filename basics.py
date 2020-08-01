@@ -5,4 +5,4 @@ def mean(*args): # args is used as a parameter with the power of processing as m
 
 #print(mean(1, 2, 3, 4, "a"))
 print(mean(1, 2, 3, 4))
-print(mean(1, 2, x = 3, 4)) # keyword argumetn will not work here
+print(mean(1, 2, x = 3, 4)) # keyword argumetn will not work heree
