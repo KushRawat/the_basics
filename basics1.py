@@ -1,3 +1,5 @@
 def func(*args):
-    args = [x.upper() for x in args]
-    return sorted(args)
+    for x in args:
+        x.upper()
+        return args
+print(func("asd", "ef"))
