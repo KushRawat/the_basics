@@ -1,6 +1,4 @@
-def find_sum(**kwargs):
-    print (kwargs.keys()) # method of calling value from keyword argument in case of **kwargs parameter in a function
-    return (kwargs.values())
-print(find_sum(x = 9))
-
-#returns a dictionary
+def find_winner(**kwargs):
+    return max(kwargs, key = kwargs.get)
+ 
+print(find_winner(Andy = 17, Marry = 19, Sim = 45, Kae = 34))
