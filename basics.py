@@ -1,5 +1,4 @@
 
-with open("fruits.txt") as myfile: #myfile is th variable, with and open are methods
-    content = myfile.read()
+with open("vegetables.txt", "w") as myfile: # making a new file vegetables.txt and performing write mode with "w"
+    myfile.write("Tomato") # using .write to write in the file 
 # with the ending of this block the file closes on its own
-print(content)
