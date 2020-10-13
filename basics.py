@@ -5,7 +5,7 @@ import pandas # third party library, it's written in python itself
 while True:
     if os.path.exists("temps_today.csv"):
         data = pandas.read_csv("temps_today.csv")    # method to access csv through pandas
-        print(data.mean())      # using mean method
+        print(data.mean()["st1"])      # using mean only for st1
     else:
         print("File does not exist.")
     time.sleep(3)
